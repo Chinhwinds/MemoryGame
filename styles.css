@@ -1,0 +1,81 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+.hint {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+.hint:hover::after {
+  content: "Remember and repeat back the sequence of colors and sounds that game plays, adding one step each round, and try to go as far as you can without making a mistake.";
+  position: absolute;
+  top: 60px;
+  right: 5%;
+  width: 150px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid black;
+  font-size: 14px;
+}
+
+i {
+  margin-top: 12px;
+  font-size: 24px;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
